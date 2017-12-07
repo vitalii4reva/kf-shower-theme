@@ -1,0 +1,95 @@
+.logo {
+	width: 100%;
+	height: auto;
+}
+
+.logoBig {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.wellcome {
+	margin-top: -50px;
+	color: #5c5c5c;
+}
+
+.number {
+	color: #ed1651;
+	font-size: 50px;
+}
+
+.boiler-true {
+	margin-left: 27%;
+}
+
+.boiler {
+	margin-left: -70px;
+}
+
+.about-me {
+	margin-left: -100px;
+}
+
+.slide {
+	&.poehali {
+		background: #000;
+	}
+	&.about-me {
+		padding: 0;
+	}
+	&::after {
+		// border: 3px solid $color;
+		// border-radius: 50%;
+	}
+}
+
+.Natasha {
+	margin: -70px 0 0 130px;
+}
+
+.poehali {
+    width: 108%;
+    height: auto;
+    margin-top: -160px;
+    margin-left: -25px;
+}
+
+.gulp-img {
+	width: 230px;
+	height: 500px;
+	margin: 0 auto;
+	display: block;
+}
+
+.img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.img-fold {
+	width: auto;
+	height: 100%;
+	display: block;
+	margin-top: -60px;
+	margin-left: 50px;
+}
+
+.bjs {
+	height: 70%;
+}
+
+.bjs75 {
+	height: 75%;
+}
+
+.bjs66 {
+	height: 66%;
+}
+
+

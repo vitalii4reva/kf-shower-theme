@@ -1,0 +1,78 @@
+// ------------------------------------------------------------------
+// Fonts
+// ------------------------------------------------------------------
+// 1. Open Sans Condensed Bold ... Text font
+// 2. Open Sans Condensed Bold ... Headings font
+// 3. Monoid ..................... Code font
+// ------------------------------------------------------------------
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: local('Open Sans Condensed Light Italic'), local('OpenSansCondensed-LightItalic'),
+        url('../fonts/OpenSansCondensed-LightItalic.woff2') format('woff2'),
+        url('../fonts/OpenSansCondensed-LightItalic.woff') format('woff'),
+        url('../fonts/OpenSansCondensed-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'),
+        url('../fonts/OpenSansCondensed-Light.woff2') format('woff2'),
+        url('../fonts/OpenSansCondensed-Light.woff') format('woff'),
+        url('../fonts/OpenSansCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'),
+        url('../fonts/OpenSansCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSansCondensed-Bold.woff') format('woff'),
+        url('../fonts/OpenSansCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arciform';
+    src: url('../fonts/Arciform.eot');
+    src: url('../fonts/Arciform.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Arciform.woff2') format('woff2'),
+        url('../fonts/Arciform.woff') format('woff'),
+        url('../fonts/Arciform.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monoid';
+    src: local('Monoid Regular'), local('Monoid-Regular'),
+        url('../fonts/Monoid-Regular.woff2') format('woff2'),
+        url('../fonts/Monoid-Regular.woff') format('woff'),
+        url('../fonts/Monoid-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monoid';
+    src: local('Monoid Bold'), local('Monoid-Bold'),
+        url('../fonts/Monoid-Bold.woff2') format('woff2'),
+        url('../fonts/Monoid-Bold.woff') format('woff'),
+        url('../fonts/Monoid-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monoid';
+    src: local('Monoid Italic'), local('Monoid-Italic'),
+        url('../fonts/Monoid-Italic.woff2') format('woff2'),
+        url('../fonts/Monoid-Italic.woff') format('woff'),
+        url('../fonts/Monoid-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
