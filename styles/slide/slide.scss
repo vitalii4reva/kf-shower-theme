@@ -15,7 +15,8 @@
 	padding:104px 112px 0 96px;
 	width:$width;
 	height:$height;
-	background:white;
+	// background:white;
+	background: url(../images/KF-Logo-small.png) #fff 99% 97% no-repeat;
 	line-height:2;
 	font-size:24px;
 
@@ -23,8 +24,8 @@
 
 	&::after {
 		position:absolute;
-		left:96px;
-		bottom:48px;
+		left:40px;
+		bottom:40px;
 		color:$light;
 		counter-increment:slide;
 		content:counter(slide);
